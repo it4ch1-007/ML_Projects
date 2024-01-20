@@ -118,7 +118,9 @@ def predict_symptom():
 
             user_symptoms.clear()
             severity.clear()
- 
+   
+
+   
     else:
         symptom, prob = get_symptom(sentence)
         print("Symptom:", symptom, ", prob:", prob)
